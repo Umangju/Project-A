@@ -100,7 +100,7 @@ int main(void)
             {
             case 1:        // 강화 도전
                 // 랜덤 값 추출
-                weapon.randNum = rand() % 100;
+                weapon.randNum = rand() % 100 + 1;
 
                 printf("\n강화중..\n");
 
